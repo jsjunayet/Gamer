@@ -1,0 +1,106 @@
+@media screen and (max-width:991px){
+
+}
+@media screen and (max-width:576px) {
+    .container{
+        max-width:calc(100% - 50px);
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-container-right ul{
+        flex-direction: column;
+    }
+    .nav-container-right ul li{
+        padding-top:32px ;
+    }
+    .nav-container-right ul li a{
+        white-space: nowrap;
+    } 
+    /* nav-ber end    */
+    /* banner-add */
+
+    .banner-main{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 10px 0px 50px;
+    }
+    .banner-header{
+        font-size: 40px;
+    }
+    .gradient{
+        font-size: 75px;
+        padding-bottom:5px ;
+    }
+    .banner-right{
+        width: 100%;
+     }
+     .banner-left{
+        width: 100%;
+    }
+    .btn{
+        padding: 10px 20px;
+    }
+    /* online-gamer */
+    .online-games{
+        flex-direction: column;
+    }
+    .single-game{
+        width: 100%;
+        margin-top: 20px;
+    }
+     .single-game .hover{
+        height:100%;
+        width: 91%;
+    } 
+    /* play-game-section */
+    .play-game-main{
+        flex-direction: column-reverse;
+    }
+    .play-game-left{
+        max-width: 100%;
+    }
+    .play-game-right{
+        max-width: 100%;
+    }
+    .choto-img{
+        top:64%;
+        left:72%;
+        max-width:150px;
+    }
+    .all-icons{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr) ;
+        /* grid-template-columns: repeat(3,1fr) ; */
+        column-gap:10px ;
+        /* row-gap: 20px; */
+        /* white-space: nowrap; */
+        
+    }
+    .img-icon{
+        max-width: 20px;
+       object-fit: cover;
+       
+   }
+   .img-icon img{
+        width: 80%;
+       display: block;
+   }
+    .personal-title{
+        white-space:nowrap;
+        font-size:16px;
+    }
+
+    /* footer-section */
+    .all-footer-achor{
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+
+    }
+    .all-tfy{
+        font-size: 40px;
+        color: #fff;
+        padding: 66px 30px 74px;
+    }   
+    
+}
